@@ -1,5 +1,5 @@
 runtime: nodejs18
-service: Foskin-Single-Page-Application
+service: default
 
 instance_class: F1
 

@@ -1,12 +1,12 @@
 import React from 'react'
 
-import Bangkit from '../assets/img/bangkit.webp'
-import Logo1 from '../assets/img/svg/logo-1.svg'
-import Logo2 from '../assets/img/svg/logo-2.svg'
-import Logo3 from '../assets/img/svg/logo-3.svg'
-import Logo4 from '../assets/img/svg/logo-4.svg'
-import Logo5 from '../assets/img/svg/logo-5.svg'
-import Logo6 from '../assets/img/svg/logo-6.svg'
+import Bangkit from 'https://storage.googleapis.com/foskin-storages/SPA-assets/img/bangkit.webp'
+import Logo1 from 'https://storage.googleapis.com/foskin-storages/SPA-assets/img/svg/logo-1.svg'
+import Logo2 from 'https://storage.googleapis.com/foskin-storages/SPA-assets/img/svg/logo-2.svg'
+import Logo3 from 'https://storage.googleapis.com/foskin-storages/SPA-assets/img/svg/logo-3.svg'
+import Logo4 from 'https://storage.googleapis.com/foskin-storages/SPA-assets/img/svg/logo-4.svg'
+import Logo5 from 'https://storage.googleapis.com/foskin-storages/SPA-assets/img/svg/logo-5.svg'
+import Logo6 from 'https://storage.googleapis.com/foskin-storages/SPA-assets/img/svg/logo-6.svg'
 
 const Background = () => {
   return (
