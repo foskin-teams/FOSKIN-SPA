@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import Logo from 'https://storage.googleapis.com/foskin-storages/SPA-assets/img/foskin-logo.png'
+import Logo from '../assets/img/foskin-logo.png'
 
 const Navbar = () => {
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);

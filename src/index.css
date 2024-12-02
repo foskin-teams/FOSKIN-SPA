@@ -41,7 +41,7 @@ html {
 
 /* Background Image for Hero Image on the left side */
 .Hero {
-  background-image: url('https://storage.googleapis.com/foskin-storages/SPA-assets/img/hero-image.png');
+  background-image: url('assets/img/hero-image.png');
   background-size: cover; 
   background-position: center;
 }

@@ -1,8 +1,7 @@
 import React from 'react'
 
-import Video from 'https://storage.googleapis.com/foskin-storages/SPA-assets/video/video-example.mp4'
+import Video from '../assets/video/video-example.mp4'
 
-//need to be revised
 const Features = () => {
     return (
         <div className="flex justify-center items-center min-h-screen">

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import PlayStore from 'https://storage.googleapis.com/foskin-storages/SPA-assets/img/playstore.png'
+import PlayStore from '../assets/img/playstore.png'
 
 function Home() {
 
