@@ -31,17 +31,17 @@ const Navbar = () => {
                     </div>
 
                     <div className="hidden md:flex justify-around w-full mx-4">
-                        <a href="#Home" className="text-lg font-semibold text-black hover:text-gray-700">
+                        <a href="#Home" className="text-lg font-semibold text-black hover:text-grey-500">
                             Home
                         </a>
-                        <a href="#Features" className="text-lg font-semibold text-black hover:text-gray-700">
+                        <a href="#Features" className="text-lg font-semibold text-black hover:text-grey-500">
                             Features
                         </a>
 
                         <div className="relative" ref={dropdownRef}>
                             <button
                                 onClick={() => setIsDropdownOpen((prev) => !prev)}
-                                className="text-lg font-semibold text-black hover:text-gray-700 flex items-center"
+                                className="text-lg font-semibold text-black hover:text-grey-500 flex items-center"
                             >
                                 About
                                 <svg

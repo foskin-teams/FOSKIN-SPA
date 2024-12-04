@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className="md:px-12 mb-12">
+    <div className="md:px-10 mb-12">
       <div className="flex flex-col md:flex-row md:px-12 px-8 py-8 gap-6">
         <div className='flex flex-col bg-white border-4 shadow-xl p-4 w-full'>
           <h2 className='text-2xl font-bold text-black'>CONTACTS</h2>
@@ -23,12 +23,12 @@ const Contact = () => {
         <div className='flex flex-col bg-white border-4 shadow-xl p-4 w-full'>
           <h2 className='text-2xl font-bold text-black'>SOCIAL MEDIA</h2>
           <p className='font-semibold text-black mb-6'>Join us for further updates!</p>
-          <a href='https://www.instagram.com/foskin.id?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==' target="_blank" rel="noopener noreferrer" className="flex items-center mb-6 ms-1" >
-            <i className="fab fa-instagram text-2xl text-grey-500 mr-3"></i>
+          <a href='https://www.instagram.com/foskin.id?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==' target="_blank" rel="noopener noreferrer" className="flex items-center ps-3 p-2 mb-3 ms-1 hover:bg-gray-300 rounded-md text-black" >
+            <i className="fab fa-instagram text-2xl mr-2"></i>
             <span className='text-black font-semibold'>Foskin Instagram</span>
           </a>
-          <a href='https://discord.gg/7FDENF2m' target="_blank" rel="noopener noreferrer" className="flex items-center mb-6" >
-            <i className="fab fa-discord text-2xl text-grey-500 mr-2"></i>
+          <a href='https://discord.gg/7FDENF2m' target="_blank" rel="noopener noreferrer" className="flex items-center p-2 mb-3 ms-1 hover:bg-gray-300 rounded-md text-black" >
+            <i className="fab fa-discord text-2xl mr-2"></i>
             <span className='text-black font-semibold'>Foskin Discord</span>
           </a>
         </div>

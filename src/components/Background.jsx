@@ -43,7 +43,7 @@ const Background = () => {
         </div>
 
         <div className="flex flex-col px-6">
-          <div className='flex flex-col lg:flex-row gap-y-2 gap-x-6 justify-center items-center lg:items-start mb-12'>
+          <div className='flex flex-col lg:flex-row gap-y-2 gap-x-6 justify-center items-center lg:items-start mb-2'>
             <img src='https://storage.googleapis.com/foskin-storages/SPA-assets/img/bangkit.webp' alt="Bangkit.webp" className='w-72'/>
             <div className='flex flex-row lg:flex-col gap-2 lg:gap-0 lg:mt-1'>
               <p className="text-sm md:text-lg lg:text-xl font-bold text-black">2024 Batch 2</p>
@@ -51,7 +51,21 @@ const Background = () => {
             </div>
           </div>
 
-          <div className='flex flex-col bg-white justify-center items-center w-full p-6 md:py-6 md:px-10 gap-10'>
+          <div className='grid grid-cols-5 gap-x-5 md:gap-x-12 gap-y-4 justify-center items-center py-2 px-8 mb-12'>
+            <img src='https://storage.googleapis.com/foskin-storages/SPA-assets/img/dicoding.png' alt="dicoding.png" />
+            <img src='https://storage.googleapis.com/foskin-storages/SPA-assets/img/GoTo.png' alt="GoTo-logo.png" />
+            <img src='https://storage.googleapis.com/foskin-storages/SPA-assets/img/traveloka.png' alt="traveloka.png" />
+            <img src='https://storage.googleapis.com/foskin-storages/SPA-assets/img/kampus-merdeka.png' alt="kampus-merdeka.png" />
+            <img src='https://storage.googleapis.com/foskin-storages/SPA-assets/img/msib.png' alt="msib.png" />
+            
+            <img src='https://storage.googleapis.com/foskin-storages/SPA-assets/img/universitas-mas-hela.png' alt="uib.png" />
+            <img src='https://storage.googleapis.com/foskin-storages/SPA-assets/img/univ-mas-marcell.png' alt="stiki.png" />
+            <img src='https://storage.googleapis.com/foskin-storages/SPA-assets/img/univ-mas-farhan-dan-pria-sigma.jpg' alt="ubsi.png" />
+            <img src='https://storage.googleapis.com/foskin-storages/SPA-assets/img/univ-mas-shawn.png' alt="univ-mas-shawn.png" />
+            <img src='https://storage.googleapis.com/foskin-storages/SPA-assets/img/univ-mas-vincent.png' alt="univ-mas-vincent.png" />
+          </div>
+
+          <div className='flex flex-col bg-white justify-center items-center w-full p-6 md:py-6 md:px-10 gap-10 drop-shadow-xl rounded-xl'>
             <h2 className='md:text-2xl text-md font-bold text-black'>Trusted By Leading Skincare Brands</h2>
             <div className="grid gap-x-10 gap-y-8 grid-cols-3">
               <div>
