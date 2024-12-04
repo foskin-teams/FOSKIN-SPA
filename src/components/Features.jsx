@@ -1,7 +1,5 @@
 import React from 'react'
 
-import Video from '../assets/video/video-example.mp4'
-
 const Features = () => {
     return (
         <div className="flex justify-center items-center min-h-screen">
@@ -15,7 +13,7 @@ const Features = () => {
                         loop
                         playsInline
                     >
-                        <source src={Video} type="video/mp4" />
+                        <source src='https://storage.googleapis.com/foskin-storages/SPA-assets/video/video-example.mp4' type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
                 </div>

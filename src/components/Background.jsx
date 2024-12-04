@@ -1,13 +1,5 @@
 import React from 'react'
 
-import Bangkit from '../assets/img/bangkit.webp'
-import Logo1 from '../assets/img/svg/logo-1.svg'
-import Logo2 from '../assets/img/svg/logo-2.svg'
-import Logo3 from '../assets/img/svg/logo-3.svg'
-import Logo4 from '../assets/img/svg/logo-4.svg'
-import Logo5 from '../assets/img/svg/logo-5.svg'
-import Logo6 from '../assets/img/svg/logo-6.svg'
-
 const Background = () => {
   return (
     <div className="flex justify-center items-center min-h-screen">
@@ -52,7 +44,7 @@ const Background = () => {
 
         <div className="flex flex-col px-6">
           <div className='flex flex-col lg:flex-row gap-y-2 gap-x-6 justify-center items-center lg:items-start mb-12'>
-            <img src={Bangkit} alt="Bangkit.webp" className='w-72'/>
+            <img src='https://storage.googleapis.com/foskin-storages/SPA-assets/img/bangkit.webp' alt="Bangkit.webp" className='w-72'/>
             <div className='flex flex-row lg:flex-col gap-2 lg:gap-0 lg:mt-1'>
               <p className="text-sm md:text-lg lg:text-xl font-bold text-black">2024 Batch 2</p>
               <p className='text-sm md:text-lg lg:text-xl text-black'>Product Track Capstone Project</p>
@@ -63,22 +55,22 @@ const Background = () => {
             <h2 className='md:text-2xl text-md font-bold text-black'>Trusted By Leading Skincare Brands</h2>
             <div className="grid gap-x-10 gap-y-8 grid-cols-3">
               <div>
-                <img src={Logo1} alt="svg-1" />
+                <img src='https://storage.googleapis.com/foskin-storages/SPA-assets/img/svg/logo-1.svg' alt="svg-1" />
               </div>
               <div>
-                <img src={Logo2} alt="svg-2" />
+                <img src='https://storage.googleapis.com/foskin-storages/SPA-assets/img/svg/logo-2.svg' alt="svg-2" />
               </div>
               <div>
-                <img src={Logo3} alt="svg-3" />
+                <img src='https://storage.googleapis.com/foskin-storages/SPA-assets/img/svg/logo-3.svg' alt="svg-3" />
               </div>
               <div>
-                <img src={Logo4} alt="svg-4" />
+                <img src='https://storage.googleapis.com/foskin-storages/SPA-assets/img/svg/logo-4.svg' alt="svg-4" />
               </div>
               <div>
-                <img src={Logo5} alt="svg-5" />
+                <img src='https://storage.googleapis.com/foskin-storages/SPA-assets/img/svg/logo-5.svg' alt="svg-5" />
               </div>
               <div>
-                <img src={Logo6} alt="svg-6" />
+                <img src='https://storage.googleapis.com/foskin-storages/SPA-assets/img/svg/logo-6.svg' alt="svg-6" />
               </div>
             </div>
           </div>

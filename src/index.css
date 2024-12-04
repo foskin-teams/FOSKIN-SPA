@@ -2,28 +2,28 @@
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  src: url('./assets/fonts/Inter_18pt-Regular.ttf') format('truetype');
+  src: url('https://storage.googleapis.com/foskin-storages/SPA-assets/fonts/Inter_18pt-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
-  src: url('./assets/fonts/Inter_18pt-Bold.ttf') format('truetype');
+  src: url('https://storage.googleapis.com/foskin-storages/SPA-assets/fonts/Inter_18pt-Bold.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
-  src: url('./assets/fonts/Inter_18pt-Semibold.ttf') format('truetype');
+  src: url('https://storage.googleapis.com/foskin-storages/SPA-assets/fonts/Inter_18pt-SemiBold.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 100;
-  src: url('./assets/fonts/Inter_18pt-Thin.ttf') format('truetype');
+  src: url('https://storage.googleapis.com/foskin-storages/SPA-assets/fonts/Inter_18pt-Thin.ttf') format('truetype');
 }
 
 ::selection {
@@ -41,7 +41,7 @@ html {
 
 /* Background Image for Hero Image on the left side */
 .Hero {
-  background-image: url('assets/img/hero-image.png');
+  background-image: url('https://storage.googleapis.com/foskin-storages/SPA-assets/img/hero-image.png');
   background-size: cover; 
   background-position: center;
 }

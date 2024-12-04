@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from "react";
-import Logo from '../assets/img/foskin-logo.png'
 
 const Navbar = () => {
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -27,7 +26,7 @@ const Navbar = () => {
                 <div className="flex justify-between gap-12 items-center h-16">
                     <div className="flex md:w-44 w-28 h-14 bg-black rounded-e-lg items-center justify-end px-6">
                         <a href="">
-                            <img src={Logo} alt="foskin-logo.png" className="w-10  object-contain" />
+                            <img src='https://storage.googleapis.com/foskin-storages/SPA-assets/img/foskin-logo.png' alt="foskin-logo.png" className="w-10  object-contain" />
                         </a>
                     </div>
 
