@@ -9,7 +9,7 @@ function Home() {
         <h2 className="md:text-4xl text-3xl font-semibold mt-1 text-black">Your Personalized Acne Care App!</h2>
         <p className="text-lg mt-4 text-grey-500">Experience a new level of skincare tailored just for you.</p>
         <div className="mt-10">
-          <a href="#Features" className="bg-black hover:text-gray-200 text-white px-10 py-4 hover:bg-grey-800 rounded-lg transition duration-200">
+          <a href="#features" className="bg-black hover:text-gray-200 text-white px-10 py-4 hover:bg-grey-800 rounded-lg transition duration-200">
             Learn more
           </a>
         </div>

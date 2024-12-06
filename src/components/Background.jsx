@@ -61,8 +61,8 @@ const Background = () => {
             <img src='https://storage.googleapis.com/foskin-storages/SPA-assets/img/universitas-mas-hela.png' alt="uib.png" />
             <img src='https://storage.googleapis.com/foskin-storages/SPA-assets/img/univ-mas-marcell.png' alt="stiki.png" />
             <img src='https://storage.googleapis.com/foskin-storages/SPA-assets/img/univ-mas-farhan-dan-pria-sigma.jpg' alt="ubsi.png" />
-            <img src='https://storage.googleapis.com/foskin-storages/SPA-assets/img/univ-mas-shawn.png' alt="univ-mas-shawn.png" />
-            <img src='https://storage.googleapis.com/foskin-storages/SPA-assets/img/univ-mas-vincent.png' alt="univ-mas-vincent.png" />
+            <img src='https://storage.googleapis.com/foskin-storages/SPA-assets/img/univ-mas-shawn.png' alt="institut-sains-dan-teknologi-terpadu-surabaya.png" />
+            <img src='https://storage.googleapis.com/foskin-storages/SPA-assets/img/univ-mas-vincent.png' alt="universitas-ciputra.png" />
           </div>
 
           <div className='flex flex-col bg-white justify-center items-center w-full p-6 md:py-6 md:px-10 gap-10 drop-shadow-xl rounded-xl'>

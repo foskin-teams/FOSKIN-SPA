@@ -31,10 +31,10 @@ const Navbar = () => {
                     </div>
 
                     <div className="hidden md:flex justify-around w-full mx-4">
-                        <a href="#Home" className="text-lg font-semibold text-black hover:text-grey-500">
+                        <a href="#home" className="text-lg font-semibold text-black hover:text-grey-500">
                             Home
                         </a>
-                        <a href="#Features" className="text-lg font-semibold text-black hover:text-grey-500">
+                        <a href="#features" className="text-lg font-semibold text-black hover:text-grey-500">
                             Features
                         </a>
 
@@ -64,19 +64,19 @@ const Navbar = () => {
                             {isDropdownOpen && (
                                 <div className="absolute bg-white border border-gray-200 rounded-lg shadow-md mt-2 w-32 z-20">
                                     <a
-                                        href="#Background"
+                                        href="#background"
                                         className="block px-4 py-2 text-black hover:bg-gray-200 font-semibold"
                                     >
                                         Background
                                     </a>
                                     <a
-                                        href="#Contact"
+                                        href="#contact"
                                         className="block px-4 py-2 text-black hover:bg-gray-200 font-semibold"
                                     >
                                         Contact Us
                                     </a>
                                     <a
-                                        href="#Contact"
+                                        href="#contact"
                                         className="block px-4 py-2 text-black hover:bg-gray-200 font-semibold"
                                     >
                                         Social Media
@@ -111,31 +111,31 @@ const Navbar = () => {
                 {isMobileMenuOpen && (
                     <div className="md:hidden mt-4">
                         <a
-                            href="#Home"
+                            href="#home"
                             className="block text-lg px-4 py-2 text-black hover:bg-gray-300 rounded-lg"
                         >
                             Home
                         </a>
                         <a
-                            href="#Features"
+                            href="#features"
                             className="block text-lg px-4 py-2 text-black hover:bg-gray-300 rounded-lg"
                         >
                             Features
                         </a>
                         <a
-                            href="#Background"
+                            href="#background"
                             className="block text-lg px-4 py-2 text-black hover:bg-gray-300 rounded-lg"
                         >
                             Background
                         </a>
                         <a
-                            href="#Contact"
+                            href="#contact"
                             className="block text-lg px-4 py-2 text-black hover:bg-gray-300 rounded-lg"
                         >
                             Contact Us
                         </a>
                         <a
-                            href="#Contact"
+                            href="#contact"
                             className="block text-lg px-4 py-2 text-black hover:bg-gray-300 rounded-lg"
                         >
                             Social Media
