@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 
-const Navbar = () => {
+const Navbar = ({ onNavigate }) => {
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const dropdownRef = useRef(null);
@@ -20,21 +20,40 @@ const Navbar = () => {
         };
     }, []);
 
+    const handleNavClick = (section) => {
+        onNavigate(section); // Calls the onNavigate function passed from App.jsx
+        if (isMobileMenuOpen) {
+            setIsMobileMenuOpen(false); // Close mobile menu after navigation
+        }
+    };
+
     return (
         <header>
             <nav className="max-w-7xl mx-auto py-4 pe-4 sm:pe-8 lg:pe-10">
                 <div className="flex justify-between gap-12 items-center h-16">
                     <div className="flex md:w-44 w-28 h-14 bg-black rounded-e-lg items-center justify-end px-6">
                         <a href="">
-                            <img src='https://storage.googleapis.com/foskin-storages/SPA-assets/img/foskin-logo.png' alt="foskin-logo.png" className="w-10  object-contain" />
+                            <img
+                                src="https://storage.googleapis.com/foskin-storages/SPA-assets/img/foskin-logo.png"
+                                alt="foskin-logo.png"
+                                className="w-10 object-contain"
+                            />
                         </a>
                     </div>
 
                     <div className="hidden md:flex justify-around w-full mx-4">
-                        <a href="#home" className="text-lg font-semibold text-black hover:text-grey-500">
+                        <a
+                            href="#home"
+                            className="text-lg font-semibold text-black hover:text-grey-500"
+                            onClick={() => handleNavClick("home")}
+                        >
                             Home
                         </a>
-                        <a href="#features" className="text-lg font-semibold text-black hover:text-grey-500">
+                        <a
+                            href="#features"
+                            className="text-lg font-semibold text-black hover:text-grey-500"
+                            onClick={() => handleNavClick("features")}
+                        >
                             Features
                         </a>
 
@@ -66,12 +85,14 @@ const Navbar = () => {
                                     <a
                                         href="#background"
                                         className="block px-4 py-2 text-black hover:bg-gray-200 font-semibold"
+                                        onClick={() => handleNavClick("background")}
                                     >
                                         Background
                                     </a>
                                     <a
                                         href="#contact"
                                         className="block px-4 py-2 text-black hover:bg-gray-200 font-semibold"
+                                        onClick={() => handleNavClick("contact")}
                                     >
                                         Contact Us
                                     </a>
@@ -113,24 +134,28 @@ const Navbar = () => {
                         <a
                             href="#home"
                             className="block text-lg px-4 py-2 text-black hover:bg-gray-300 rounded-lg"
+                            onClick={() => handleNavClick("home")}
                         >
                             Home
                         </a>
                         <a
                             href="#features"
                             className="block text-lg px-4 py-2 text-black hover:bg-gray-300 rounded-lg"
+                            onClick={() => handleNavClick("features")}
                         >
                             Features
                         </a>
                         <a
                             href="#background"
                             className="block text-lg px-4 py-2 text-black hover:bg-gray-300 rounded-lg"
+                            onClick={() => handleNavClick("background")}
                         >
                             Background
                         </a>
                         <a
                             href="#contact"
                             className="block text-lg px-4 py-2 text-black hover:bg-gray-300 rounded-lg"
+                            onClick={() => handleNavClick("contact")}
                         >
                             Contact Us
                         </a>
